@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Oswald:wght@300&family=Poppins:wght@100;200;300;400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #121212e8;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    background-color: #121212ea;
+    padding: 30px 40px;
+    border: 2px solid;
+    box-shadow: 10px 10px 10px;
+    border-radius: 20px;
+}
+
+.container h2{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.inputs{
+    color: white;
+    display: flex;
+    gap: 50px;
+    background-color: transparent;
+}
+
+.textfield-min{
+    display: flex;
+    flex-direction: column;
+}
+
+.textfield-min input{
+    background-color: transparent;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+}
+
+.textfield-min label{
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 60px;
+    padding-top: 10px;
+}
+
+.textfield-max{
+    display: flex;
+    flex-direction: column;
+}
+
+.textfield-max input{
+    background-color: transparent;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+}
+
+.textfield-max label{
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 60px;
+    padding-top: 10px;
+}
+
+#gerar{
+    background-color: #7336ff;
+    border: nome;
+    padding: 12px 20px;
+    border-radius: 50px;
+    width: 100%;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+#valor{
+    color: #fff;
+    font-size: 50px;
+    padding-left: 180px;
+}
